@@ -1,11 +1,12 @@
-body {
-    height: 100%;
+* {
+    box-sizing: border-box;
 }
 
 #container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    height: 100vh;
+}
+
+.active {
+    background-color: red;
 }
